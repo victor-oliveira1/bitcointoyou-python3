@@ -60,9 +60,9 @@ No caso da venda, se o valor informado for menor<br />
 que o praticado, a venda é efetuada instantâneamente,<br />
 caso contrário, é agendado.<br />
 
-### Exemplos:
-Compra: `btc.CreateOrder('buy', '0.00522', '52000')`
-Venda: `btc.CreateOrder('sell', '0.0782', '55700')`
+### Exemplos:<br />
+Compra: `btc.CreateOrder('buy', '0.00522', '52000')`<br />
+Venda: `btc.CreateOrder('sell', '0.0782', '55700')`<br />
 
 **OBS: Não sou responsável por qualquer problema em sua conta.
 Use por sua própria conta e risco.**
