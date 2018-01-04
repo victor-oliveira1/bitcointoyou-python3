@@ -93,7 +93,7 @@ class API:
         '''Remove uma ordem agendada.
 
         Parâmetros:
-        id - Id da ordem à cancelar.
+        order_id - Id da ordem à cancelar.
         É possível verificar as id's das ordens abertas com o método Orders
 
         Exemplo:
@@ -115,6 +115,11 @@ class API:
         No caso da venda, se o valor informado for menor
         que o praticado, a venda é efetuada instantâneamente,
         caso contrário, é agendado.
+
+        Parâmetros:
+        action - 'buy' (comprar) ou 'sell' (vender),
+        amount - Quantidade de compra ou venda (BTC),
+        price - Valor de compra ou venda (BTC).
 
         
         Exemplos:
