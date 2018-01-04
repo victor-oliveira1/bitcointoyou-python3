@@ -7,7 +7,7 @@ Uma interface simples para a Trade API da corretora Bitcointoyou.<br />
 Para utilizar, basta instanciar a classe API com os parâmetros:<br />
 **chave da api e senha da api.**<br />
 
-### Exemplo:<br />
+#### Exemplo:<br />
 `btc = API(chave_api, senha_api)`<br />
 
 Todas as funções retornam dicionários, resultado do processamento do<br />
@@ -22,7 +22,7 @@ Retorna valores atuais do Bitcoin.<br />
 > Parâmetros:<br />
 > Nenhum<br />
 
-### Exemplo:<br />
+#### Exemplo:<br />
 `btc.Ticker()`<br />
 
 ***
@@ -32,7 +32,7 @@ Retorna o saldo disponível para cada moeda (BTC e REAL).<br />
 > Parâmetros:<br />
 > Nenhum<br />
 
-### Exemplo:<br />
+#### Exemplo:<br />
 `btc.Balance()`<br />
 
 ***
@@ -45,7 +45,7 @@ Retorna as ordens executadas.<br />
 > 'EXECUTED' - Ordens executadas.<br />
 > Caso nenhum parâmetro seja informado, retorna todas as ordens
 
-### Exemplo:<br />
+#### Exemplo:<br />
 `btc.Orders('OPEN')`<br />
 
 ***
@@ -56,7 +56,7 @@ Remove uma ordem agendada.<br />
 > order_id - Id da ordem à cancelar.<br />
 > É possível verificar as id's das ordens abertas com o método **Orders**
 
-### Exemplo:<br />
+#### Exemplo:<br />
 `btc.DeleteOrder(1055)`
 
 ***
@@ -76,7 +76,7 @@ caso contrário, é agendado.<br />
 > amount - Quantidade de compra ou venda (BTC),<br />
 > price - Valor de compra ou venda (BTC).<br />
 
-### Exemplos:<br />
+#### Exemplos:<br />
 Compra:<br />
 `btc.CreateOrder('buy', '0.00522', '52000')`<br />
 Venda:<br />
